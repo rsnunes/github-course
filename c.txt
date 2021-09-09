@@ -1,0 +1,25 @@
+git remote add origin ...
+
+git push -u origin master
+
+git log
+git branch
+    *branch  (atual)
+
+git add -A (adicionar todos)
+git add file.html (adicionar especifico)
+git commit -am "msg" (add e commit)
+
+git checkout HEAD -- file.html (volta ao ultimo estado commitado)
+
+git reset --soft fc635e50326f8092a4cf61e2cdde4a86887534a3
+    (volta com modificações nao commitadas)
+    --mixed (volta com modificações nao adicionadas)
+    --hard (volta para o commit X e descarta tudo depois dele)
+
+git diff
+git diff --name-only
+git diff file.html
+
+git revert --no-edit 807098090970809809
+    desfaz o commit e mantem no historico
