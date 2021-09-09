@@ -23,3 +23,10 @@ git diff file.html
 
 git revert --no-edit 807098090970809809
     desfaz o commit e mantem no historico
+
+git push origin :teste
+    (deletar branch remoto teste)
+
+git branch -D teste
+    (deletar branch local teste)
+
